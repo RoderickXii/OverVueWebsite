@@ -34,6 +34,10 @@ import chris from "./dev-pics/chris.jpg";
 import alexLaw from "./dev-pics/alexLaw.png";
 import emmaG from "./dev-pics/EmmaG.png"; 
 import honghaoS from "./dev-pics/honghaoS.jpeg";
+import jikim from "./dev-pics/jikim.png";
+import chrisdavis from "./dev-pics/chdavis.jpg";
+import linden from "./dev-pics/lindenyoung.jpg";
+import jigarxp from "./dev-pics/jigarp.jpg"
 
 const devData = {
   deano: {
@@ -239,6 +243,30 @@ const devData = {
     'github-handle': '@sunhonghaoparis',
     'github-link': 'https://github.com/sunhonghaoparis',
     'img': honghaoS
+  },
+  jigarxp: {
+    'dev-name': 'Jigar Patel',
+    'github-handle': '@jigarxp',
+    'github-link': 'https://github.com/jigarxp',
+    'img': jigarxp
+  },
+  linden: {
+    'dev-name': 'Linden Young',
+    'github-handle': '@lindenyoung',
+    'github-link': 'https://github.com/lindenyoung',
+    'img': linden
+  },
+  chrisdavis: {
+    'dev-name': 'Christopher Davis',
+    'github-handle': '@chdavis0917',
+    'github-link': 'https://github.com/chdavis0917',
+    'img': chrisdavis
+  },
+  jikim: {
+    'dev-name': 'Ji Hyung Kim',
+    'github-handle': '@dwejikim',
+    'github-link': 'https://github.com/dwejikim',
+    'img': jikim
   },
 };
 

@@ -78,19 +78,19 @@ export const Body = () => {
 
   return (
     <div>
-      <BodyHeader className="new-header">New in OverVue 8.0</BodyHeader>
+      <BodyHeader className="new-header">New in OverVue 9.0</BodyHeader>
       <SectionContainer>
           <Section>
             <HeadTwoStyle>
-                <h1>Component Library Import</h1>
+                <h1>Introducing Vue's Official State Management - Pinia</h1>
                 <p className="p">
-                  Quickly start your project by importing components from popular Vue Component Libraries.
+                  Conversion of old store and state management from Vuex to Pinia.
                 </p>
             </HeadTwoStyle>
             <img
               alt="Add html element Gif"
               className="shadow"
-              src="https://media.giphy.com/media/p70TAgHoCqFHK4RBEq/giphy.gif"
+              src="../assets/doc-data/WhyPinia.PNG"
             />
           </Section>
 
@@ -98,13 +98,13 @@ export const Body = () => {
             <img
               alt="Add html element Gif"
               className="shadow num2"
-              src="https://media.giphy.com/media/B1HQXndtf6nM9FedMm/giphy.gif"
+              src="../assets/doc-data/js-ts.png"
             />
             <HeadTwoStyle>
               <div className="num1">
-              <h1>Precise Component Size & Position</h1>
+              <h1>Migration of JavaScript to TypeScript</h1>
               <p className="p">
-                Envision your project design with accurate component placement and sizing that persists upon project export.
+                Implement compile-time error handing, accelerate scalability, and to improve the developer experience.
               </p>
               </div>
             </HeadTwoStyle>
@@ -114,13 +114,14 @@ export const Body = () => {
           <HeadTwoStyle>
               <h1>Improved Exported Project Code</h1>
               <p className="p">
-                Options to add OAuth boilerplate to add additional functionality to the exported prototype project code.
+                {/* Options to add OAuth boilerplate to add additional functionality to the exported prototype project code. */}
+                Improved functionality of nesting of HTML element and parent-child component relationship to be accurately depicted. 
               </p>
             </HeadTwoStyle>
             <img
               alt="Add html element Gif"
               className="shadow"
-              src="https://media.giphy.com/media/2L1RcRzNEM94wBrHWJ/giphy.gif"
+              src="../assets/doc-data/NestingHtmlDemo.gif"
             />
           </Section>
       </SectionContainer>
