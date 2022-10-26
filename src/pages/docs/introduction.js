@@ -37,9 +37,9 @@ export default function Introduction() {
         </div>
 
 
-        <h3>New to Vue 8.0</h3>
+        <h3>New to Vue 9.0</h3>
         <p>
-          Vue 8.0 augments prototyping abilities with the addition of element+ components, snap to grid positioning, and exportable color and sizing. In addition, users can now add Oauth boilerplate code for github and google to their exportable code, as well as Vue component testing for elements created in-app.
+        Vue 9.0 now utilizes Composition API, TypeScript compatibility, and Pinia, Vue's official state management library. Improved on Parent-Children relationship and HTML nesting functionality for export and code-snippets.
         </p>
       </div>
     </DocsLayout>
