@@ -98,7 +98,7 @@ export const Body = () => {
             <img
               alt="Add html element Gif"
               className="shadow num2"
-              src="https://media.giphy.com/media/B1HQXndtf6nM9FedMm/giphy.gif"
+              src="../assets/doc-data/js-ts.png"
             />
             <HeadTwoStyle>
               <div className="num1">
