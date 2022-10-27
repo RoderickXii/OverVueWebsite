@@ -54,7 +54,7 @@ export const Header = () => (
       <br/>
       <Button
         className={"button"}
-        href="https://github.com/open-source-labs/OverVue/releases/download/v9.0.0/OverVue-9.0.0.zip"
+        href="https://github.com/open-source-labs/OverVue/releases/download/v9.0.0/OverVue-9.0.0-linux.zip"
       >
         <div id="download">
           <div>Download for</div> <i className="fab fa-windows" />

@@ -35,7 +35,7 @@ export const Hero = () => (
       className="subtitle"
     >
       {/* Prototype driven development */}
-      Introducing OverVue 8.0
+      Introducing OverVue 9.0
     </motion.p>
 
     <motion.div
@@ -55,7 +55,7 @@ export const Hero = () => (
 
       <Button
         className={"button"}
-        href="https://github.com/open-source-labs/OverVue/releases/download/v8.0.0/OverVue-8.0.0-darwin-universal.zip"
+        href="https://github.com/open-source-labs/OverVue/releases/download/v9.0.0/OverVue-9.0.0-mac.zip"
       >
         <div id="download">
           <div>Download for </div> <i className="fab fa-apple" />
@@ -64,7 +64,7 @@ export const Hero = () => (
       <br />
       <Button
         className={"button"}
-        href="https://github.com/open-source-labs/OverVue/releases/download/v8.0.0/OverVue-8.0.0-linux-x64.zip"
+        href="https://github.com/open-source-labs/OverVue/releases/download/v9.0.0/OverVue-9.0.0-linux.zip"
       >
         <div id="download">
           <div>Download for Linux</div> <i className="fab fa-brands fa-linux"/>

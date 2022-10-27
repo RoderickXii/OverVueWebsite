@@ -90,7 +90,7 @@ export const Body = () => {
             <img
               alt="Add html element Gif"
               className="shadow"
-              src="../assets/doc-data/WhyPinia.PNG"
+              src="https://i.ibb.co/b2k3vfV/WhyPinia.png"
             />
           </Section>
 
@@ -98,7 +98,7 @@ export const Body = () => {
             <img
               alt="Add html element Gif"
               className="shadow num2"
-              src="../assets/doc-data/js-ts.png"
+              src="https://i.ibb.co/HFJn0gN/js-ts.png"
             />
             <HeadTwoStyle>
               <div className="num1">
@@ -121,7 +121,7 @@ export const Body = () => {
             <img
               alt="Add html element Gif"
               className="shadow"
-              src="../assets/doc-data/NestingHtmlDemo.gif"
+              src="https://media.giphy.com/media/gtsAVD2AQaDZKKnCwz/giphy.gif"
             />
           </Section>
       </SectionContainer>
