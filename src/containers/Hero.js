@@ -82,7 +82,7 @@ const HeaderStyles = styled.div`
   display: flex;
   flex-direction: column;
   min-height: 75vh;
-  background: rgb(37, 96, 159);
+  // background: rgb(37, 96, 159);
   background: linear-gradient(
     107deg,
     rgb(52, 73, 94) 0%,

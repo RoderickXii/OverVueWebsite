@@ -28,7 +28,6 @@ export default function EnvironmentSetup() {
         <div>
           <div>
             <h3>Toggle between Tree Mode and Grid Mode</h3>
-            <br />
             <p>
               Switch between Tree Mode & Grid Mode by clicking on the gear icon
               in the upper-right corner.
@@ -49,9 +48,10 @@ export default function EnvironmentSetup() {
               alt='modes'
             />
             <br />
+            <br />
             <p>
               <em>
-                Please note that some functionality in Tree mode may be disabled
+                Please note that some functionality in Grid Mode may be disabled
                 or broken, as this view is now considered deprecated.
               </em>
             </p>

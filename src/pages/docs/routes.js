@@ -1,7 +1,6 @@
 import React from 'react';
 import { DocsLayout } from '../../layouts';
 import '../../styles/docs.css';
-import AddRoutes from '../../assets/doc-data/addRoutes.jpg';
 import ComponentHierarchy from '../../assets/doc-data/componentHierarchy.jpg';
 
 export default function Routes() {
@@ -21,7 +20,11 @@ export default function Routes() {
             </p>
             <p>Note: The default route, HomeView, cannot be deleted!</p>
           </div>
-          <img className='gif' alt='show options' src={AddRoutes}></img>
+          <img
+            className='gif'
+            alt='Routes'
+            src='https://media.giphy.com/media/ptfGbJdSUODKZXY6XO/giphy.gif'
+          ></img>
         </div>
         <div className='desc'>
           <div>
@@ -29,15 +32,49 @@ export default function Routes() {
             <p>
               The central user interface in Tree Mode (the default view) gives
               you a visual representation of how routes and components relate to
-              one another. You can navigate to a specific component or route by
-              clicking on its node within the tree.
+              one another.{' '}
+            </p>
+            <p>
+              You can navigate to a specific component or route by clicking on
+              its node within the tree.
             </p>
           </div>
           <img
             className='gif'
-            alt='show options'
-            src={ComponentHierarchy}
-          ></img>
+            alt='Tree1'
+            src='https://live.staticflickr.com/65535/53169434723_70b6cf748c_b.jpg'
+          />
+        </div>
+        <div>
+          <h3>Drag & drop components</h3>
+          <p>
+            Drag and drop tree nodes to update route/component relationships.
+            Changes made in Tree Mode will be dynamically updated in Code
+            Preview and reflected in any exported files.
+          </p>
+          <img
+            alt='Tree Mode Gif'
+            className='gif'
+            src='https://media.giphy.com/media/ZulevY0tBZnUOCDpY7/giphy.gif'
+          />
+          <br />
+          <h3>Editing in Grid Mode</h3>
+          <p>
+            OverVue version 10 enhances the developer experience by setting Tree
+            Mode as the application's default user interface.
+          </p>
+          <p>
+            {' '}
+            Though "canvas view" (of previous versions) has been deprecated in
+            the form of "Grid Mode", users can still access this feature by
+            clicking on the gear icon in the upper-right corner and toggling
+            modes.
+          </p>
+          <img
+            src='https://live.staticflickr.com/65535/53169206709_6b8d0b0945_c.jpg'
+            className='gif'
+            alt='Gridmode'
+          />
         </div>
       </div>
     </DocsLayout>

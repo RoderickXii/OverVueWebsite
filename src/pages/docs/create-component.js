@@ -18,9 +18,9 @@ export default function CreateComponent() {
             <p>
               Under the Create Component menu in the left sidebar, set a
               component name (required) and optionally select a parent
-              component. Then click on "Create Component" at the bottom of the
-              menu.
+              component.
             </p>
+            <p> Then, click "Create Component" at the bottom of the menu.</p>
           </div>
           <img
             src='https://live.staticflickr.com/65535/53168259342_eb72295e98_b.jpg'
@@ -38,8 +38,7 @@ export default function CreateComponent() {
             </p>
             <img
               src='https://live.staticflickr.com/65535/53169043389_d2f9b551cb_b.jpg'
-              width='170'
-              height='375'
+              className='gif'
               alt='AddHtmlElements'
             />
             <br />
@@ -77,8 +76,7 @@ export default function CreateComponent() {
             </p>
             <img
               src='https://live.staticflickr.com/65535/53169314443_546cc69a55_b.jpg'
-              width='424'
-              height='240'
+              className='gif'
               alt='Screenshot 2023-09-06 at 10.54.12 AM'
             />
           </div>
@@ -86,20 +84,22 @@ export default function CreateComponent() {
         <div className='desc'>
           <div>
             <h3>Customize your components</h3>
+            <p>To set component styling, add a class attribute.</p>
             <p>
-              To capture component styling, be sure to add a class attribute.
               You can further customize your components in the sidebar by adding
               an ID, parents, children, props, state, or actions - all of which
               will be dynamically updated in the Code Preview and included in
-              your exported files. To update a component after its creation,
-              select the component on the tree and the Update Component Menu
-              will appear in the left sidebar.
+              your exported files.{' '}
+            </p>
+            <p>
+              To update a component after its creation, select the component on
+              the tree and the Update Component Menu will appear in the left
+              sidebar.
             </p>
           </div>
           <img
             src='https://live.staticflickr.com/65535/53169093959_cd26285063_b.jpg'
-            width='500'
-            height='450'
+            className='gif'
             alt='CustomizeComponents'
           />
         </div>

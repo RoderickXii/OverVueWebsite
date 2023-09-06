@@ -24,20 +24,34 @@ export default function SaveAndExport() {
               project.
             </p>
           </div>
-          <img className='gif' alt='show grid density' src={save}></img>
+          <img
+            className='gif'
+            alt='Save Import'
+            src='https://media.giphy.com/media/AEQJSRb04uXuomJhIQ/giphy.gif'
+          ></img>
         </div>
         <div className='desc'>
           <div className='saveImport'>
             <h3>Export a project</h3>
             <p>
               To export your project as a folder, click the "Export" button in
-              the upper-right corner. Clicking "Current Project" will export the
-              entire project as a folder containing files with boilerplate code,
-              and clicking "Current Active Component" will export the current
-              active component as a single .vue file.
+              the upper-right corner.
+            </p>
+            <p>
+              {' '}
+              Clicking "Current Project" will export the entire project as a
+              folder containing files with boilerplate code.
+            </p>
+            <p>
+              Clicking "Current Active Component" will export the current active
+              component as a single .vue file.
             </p>
           </div>
-          <img className='gif' alt='show grid density' src={exp}></img>
+          <img
+            className='gif'
+            alt='Export'
+            src='https://media.giphy.com/media/iu0j0TsZDHiGx5Qa3K/giphy.gif'
+          ></img>
         </div>
       </div>
     </DocsLayout>
