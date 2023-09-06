@@ -1,10 +1,10 @@
 /* content for hero of me page including OverVue banner, download buttons */
 
-import React from "react";
-import styled from "styled-components";
-import { Button } from "../styles/Button";
-import { motion } from "framer-motion";
-import main from "../assets/logo/overvue_trans.png";
+import React from 'react';
+import styled from 'styled-components';
+import { Button } from '../styles/Button';
+import { motion } from 'framer-motion';
+import main from '../assets/logo/overvue_trans.png';
 
 const variants = {
   hidden: { opacity: 0 },
@@ -21,53 +21,57 @@ const button = {
     main title and delay of words appearing  **/
 export const Hero = () => (
   <HeaderStyles>
-    <div className="title">
+    <div className='title'>
       <div>
-        <img alt="OverVue logo" id="mainLogo" src={main}></img>
+        <img alt='OverVue logo' id='mainLogo' src={main}></img>
       </div>
     </div>
 
     <motion.p
-      initial="hidden"
-      animate="visible"
+      initial='hidden'
+      animate='visible'
       variants={variants}
       transition={{ delay: 1 }}
-      className="subtitle"
+      className='subtitle'
     >
       {/* Prototype driven development */}
-      Introducing OverVue 9.0
+      An{' '}
+      <strong>
+        <em>intuitive</em>
+      </strong>{' '}
+      Vue prototyping tool
     </motion.p>
 
     <motion.div
-      initial="hidden"
-      animate="visible"
+      initial='hidden'
+      animate='visible'
       variants={button}
       transition={{
         delay: 2,
-        x: { type: "inertia", stiffness: 50 },
+        x: { type: 'inertia', stiffness: 50 },
         default: { duration: 1 },
       }}
     >
-      <div className="title">
+      <div className='title'>
         {/* <p>Introducing OverVue 8.0</p> */}
         {/* <p> With our latest launch, going from prototype to production takes just the click of a button </p> */}
       </div>
 
       <Button
-        className={"button"}
-        href="https://github.com/open-source-labs/OverVue/releases/download/v9.0.0/OverVue-9.0.0-mac.zip"
+        className={'button'}
+        href='https://github.com/open-source-labs/OverVue/releases/download/v9.0.0/OverVue-9.0.0-mac.zip'
       >
-        <div id="download">
-          <div>Download for </div> <i className="fab fa-apple" />
+        <div id='download'>
+          <div>Download for </div> <i className='fab fa-apple' />
         </div>
       </Button>
       <br />
       <Button
-        className={"button"}
-        href="https://github.com/open-source-labs/OverVue/releases/download/v9.0.0/OverVue-9.0.0-linux.zip"
+        className={'button'}
+        href='https://github.com/open-source-labs/OverVue/releases/download/v9.0.0/OverVue-9.0.0-linux.zip'
       >
-        <div id="download">
-          <div>Download for Linux</div> <i className="fab fa-brands fa-linux"/>
+        <div id='download'>
+          <div>Download for Linux</div> <i className='fab fa-brands fa-linux' />
         </div>
       </Button>
     </motion.div>

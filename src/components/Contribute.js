@@ -70,8 +70,8 @@ const BottomDiv = styled.div`
 const Contribute = () => {
   return (
     <BottomDiv>
-      <h2>Want to Contribute?</h2>
-      <div>Visit our <a href="https://github.com/open-source-labs/OverVue">Github</a> and help make Vue prototyping better!</div>
+      <h2>Want to contribute?</h2>
+      <div>Visit our <a href="https://github.com/open-source-labs/OverVue">GitHub</a> repository and help make Vue prototyping better!</div>
       {/* <a className="contribute" href="https://github.com/open-source-labs/OverVue">
         <p>Github </p> <i className="fab fa-github" />
       </a> */}

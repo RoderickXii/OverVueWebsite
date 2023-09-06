@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
 
+img {
+  margin: 0 auto;
+}
+
 .docs__content {
   display: flex;
   flex-grow: 1;
@@ -8,16 +12,19 @@
   flex-direction: column;
   align-items: left;
   text-align: left;
-  margin: 0 auto;
+  margin: 0 5rem;
   padding-top: 4rem;
-  
 }
 
 h2 {
   font-size: 48px;
   width: 100%;
   margin-bottom: 12px;
-  color: #0f1730
+  color: #0f1730;
+}
+
+#team-h2-about {
+  margin-top: 30px;
 }
 
 h3 {
@@ -26,13 +33,13 @@ h3 {
   margin-bottom: 12px;
   color: #0f1730;
 }
-h3::after {
+#team-h3-line::after {
   background: hsla(0, 0%, 56.5%, 0.5);
-  content: "";
+  content: '';
   display: block;
   height: 1.5px;
   margin: 20px 20px 20px 0px;
-  
+  width: 100%;
 }
 hr {
   height: 1.5px;
@@ -47,13 +54,13 @@ p {
   /* display: inline-block; */
 }
 p > a {
-  display:inline;
+  display: inline;
 }
 .gif {
   max-width: 700px;
   max-height: 600px;
   padding: 0 2em;
-  width:100%;
+  width: 100%;
   height: auto;
   border-radius: 2px;
   /* box-shadow: 2px 4px 5px rgba(52, 73, 94, 0.4); */
@@ -61,17 +68,15 @@ p > a {
 }
 
 .desc {
- 
   margin: 2em 0;
 }
 .horiz {
-  color: hsla(0,0%,56.5%,0.5);
-  content: "";
+  color: hsla(0, 0%, 56.5%, 0.5);
+  content: '';
   display: block;
   height: 1.5px;
   margin: 20px 0px;
 }
-
 
 @media screen and (min-width: 1500px) {
   .desc {
@@ -80,10 +85,10 @@ p > a {
   }
 }
 
-.saveImport{
+.saveImport {
   margin-right: 110px;
 }
 
-.minusMargin{
+.minusMargin {
   margin-top: -20px;
 }

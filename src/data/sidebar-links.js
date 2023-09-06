@@ -2,14 +2,14 @@
 
 export const links = {
   //section heading and nested links
-  'getting_started': [
+  getting_started: [
     {
-      label: "Introduction",
-      link: "/docs/introduction",
+      label: 'Introduction',
+      link: '/docs/introduction',
     },
     {
-      label: "Installation",
-      link: "/docs/installation",
+      label: 'Installation',
+      link: '/docs/installation',
     },
     // {
     //   label: "New User Tutorial",
@@ -17,35 +17,35 @@ export const links = {
     // },
   ],
   //section heading and nested links
-  'guides': [
+  guides: [
     {
-      label: "Setting Up Your Environment",
-      link: "/docs/environment-setup",
+      label: 'Setup',
+      link: '/docs/environment-setup',
     },
     {
-      label: "Creating New Components",
-      link: "/docs/create-component",
+      label: 'Creating New Components',
+      link: '/docs/create-component',
+    },
+    {
+      label: 'Creating Routes',
+      link: '/docs/routes',
     },
     // {
     //   label: "Adding Styling",
     //   link: "/docs/component-styling",
     // },
-    {
-      label: "OAuth Configuration",
-      link: "/docs/oauthConfig",
-    },
-    {
-      label: "Using and Visualizing Routes",
-      link: "/docs/routes",
-    },
+    // {
+    //   label: "OAuth Configuration",
+    //   link: "/docs/oauthConfig",
+    // },
+
     // {
     //   label: "Hierarchy Visualization",
     //   link: "/docs/hierarchy-visualization",
     // },
     {
-      label: "Saving and Exporting your Code",
-      link: "/docs/save-and-export",
+      label: 'Saving, Importing, & Exporting',
+      link: '/docs/save-and-export',
     },
-   
   ],
 };

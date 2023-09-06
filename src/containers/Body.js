@@ -1,29 +1,32 @@
-import React, { useState } from "react";
-import HeadTwoStyle from "../styles/HeadTwoStyle";
-import styled from "styled-components";
+import React, { useState } from 'react';
+import HeadTwoStyle from '../styles/HeadTwoStyle';
+import styled from 'styled-components';
 import 'bootstrap/dist/css/bootstrap.min.css';
 export const Body = () => {
-  
   const gifListObj = {
     1: {
-      link: "https://media.giphy.com/media/MHqQTb5Vdtewlra4pG/giphy.gif",
-      header: "Create Components",
-      description: "Quickly start your project by creating and naming your first component. Interact with it in the CSS Container.",
+      link: 'https://media.giphy.com/media/MHqQTb5Vdtewlra4pG/giphy.gif',
+      header: 'Create Components',
+      description:
+        'Quickly start your project by creating and naming your first component. Interact with it in the CSS Container.',
     },
     2: {
-      link: "https://media.giphy.com/media/YyPpNuH86r25JZNd46/giphy.gif",
-      header: "Add and change HTML Elements",
-      description: "Add HTML elements inside your component. You can now modify the specifications of your prototype.",
+      link: 'https://media.giphy.com/media/YyPpNuH86r25JZNd46/giphy.gif',
+      header: 'Add and change HTML Elements',
+      description:
+        'Add HTML elements inside your component. You can now modify the specifications of your prototype.',
     },
     3: {
-      link: "https://media.giphy.com/media/3eKBo9Qfi16mVdGIz4/giphy.gif",
-      header: "Add attributes to components",
-      description: "Add a class and/or an ID attribute to the component to tailor it to your needs.",
+      link: 'https://media.giphy.com/media/3eKBo9Qfi16mVdGIz4/giphy.gif',
+      header: 'Add attributes to components',
+      description:
+        'Add a class and/or an ID attribute to the component to tailor it to your needs.',
     },
     4: {
-      link: "https://media.giphy.com/media/1ttTOYNOTYBSOoWtG1/giphy.gif",
-      header: "Add Notes",
-      description: "You can add personalized messages to help you keep track of your components.",
+      link: 'https://media.giphy.com/media/1ttTOYNOTYBSOoWtG1/giphy.gif',
+      header: 'Add Notes',
+      description:
+        'You can add personalized messages to help you keep track of your components.',
     },
     // 5: {
     //   link: "https://media.giphy.com/media/aXMkIStyTE0jkNlRtO/giphy.gif",
@@ -55,7 +58,7 @@ export const Body = () => {
     //   header: "Export boilerplate",
     //   description: "Export the prototype's code in a lightweight boilerplate and develop the product further in an IDE.",
     // }
-  }
+  };
 
   const [gifImage, setGifImage] = useState(gifListObj[1].link);
 
@@ -64,86 +67,131 @@ export const Body = () => {
   };
 
   const toggleButtonArray = [];
-  for (let i = 1; i <= Object.keys(gifListObj).length; i++){
+  for (let i = 1; i <= Object.keys(gifListObj).length; i++) {
     toggleButtonArray.push(
       <ToggleButton>
-        <input type="radio" class="btn-check" name="options" id={i} autocomplete="off" onClick={(event)=>handleChange(event)}/>
-        <label class="btn btn-light" for={i}>
+        <input
+          type='radio'
+          class='btn-check'
+          name='options'
+          id={i}
+          autocomplete='off'
+          onClick={(event) => handleChange(event)}
+        />
+        <label class='btn btn-light' for={i}>
           <h1>{gifListObj[i].header}</h1>
           <p>{gifListObj[i].description}</p>
         </label>
       </ToggleButton>
-    )
+    );
   }
 
   return (
     <div>
-      <BodyHeader className="new-header">New in OverVue 9.0</BodyHeader>
+      <BodyHeader className='new-header'>
+        What's new in OverVue 10.0?
+      </BodyHeader>
       <SectionContainer>
-          <Section>
-            <HeadTwoStyle>
-                <h1>Introducing Vue's Official State Management - Pinia</h1>
-                <p className="p">
-                  Conversion of old store and state management from Vuex to Pinia.
-                </p>
-            </HeadTwoStyle>
-            <img
-              alt="Add html element Gif"
-              className="shadow"
-              src="https://i.postimg.cc/NFBd3LDv/WhyPinia.png"
-            />
-          </Section>
-
-          <ReverseLayout>
-            <img
-              alt="Add html element Gif"
-              className="shadow num2"
-              src="https://i.postimg.cc/2yS4dWTy/js-ts.png"
-            />
-            <HeadTwoStyle>
-              <div className="num1">
-              <h1>Migration of JavaScript to TypeScript</h1>
-              <p className="p">
-                Implement compile-time error handing, accelerate scalability, and to improve the developer experience.
-              </p>
-              </div>
-            </HeadTwoStyle>
-          </ReverseLayout>
-
-          <Section>
+        <Section>
           <HeadTwoStyle>
-              <h1>Improved Exported Project Code</h1>
-              <p className="p">
-                {/* Options to add OAuth boilerplate to add additional functionality to the exported prototype project code. */}
-                Improved functionality of nesting of HTML element and parent-child component relationship to be accurately depicted. 
+            <h1>Edit in new and improved "Tree Mode"</h1>
+            <p className='p'>
+              Drag and drop tree nodes to dynamically change your app's
+              component structure!
+            </p>
+            <br />
+            <p>
+              You can still edit with Grid Mode by clicking the gear icon in the
+              top-right corner of the application.
+            </p>
+          </HeadTwoStyle>
+          <img
+            alt='Tree Mode Gif'
+            className='shadow'
+            src='https://media.giphy.com/media/ZulevY0tBZnUOCDpY7/giphy.gif'
+          />
+        </Section>
+
+        <ReverseLayout>
+          <img
+            alt='HTML Element List Gif'
+            className='shadow num2'
+            src='https://media.giphy.com/media/ZxQLQ23f2vaJq4F380/giphy.gif'
+            style={{ 'max-width': '250px' }}
+          />
+          <HeadTwoStyle>
+            <div className='num1'>
+              <h1>Nest HTML elements</h1>
+              <p className='p'>
+                In the HTML Elements section, reposition and nest HTML elements
+                within your components by dragging and dropping.
               </p>
-            </HeadTwoStyle>
-            <img
-              alt="Add html element Gif"
-              className="shadow"
-              src="https://media.giphy.com/media/gtsAVD2AQaDZKKnCwz/giphy.gif"
-            />
-          </Section>
+            </div>
+          </HeadTwoStyle>
+        </ReverseLayout>
+
+        <Section>
+          <HeadTwoStyle>
+            <h1>Focus on a specific component</h1>
+            <p className='p'>
+              Double-click on a component within your tree to open up the
+              "component focus" modal.
+            </p>
+          </HeadTwoStyle>
+          <img
+            alt='Add html element Gif'
+            className='shadow'
+            src='https://media.giphy.com/media/7ACv2wDz7wscaTtXuk/giphy.gif'
+          />
+        </Section>
+
+        <ReverseLayout>
+          <img
+            alt='Add html element Gif'
+            className='shadow num2'
+            src='https://media.giphy.com/media/qB5y0b4UUlKRODY1MO/giphy.gif'
+          />
+          <HeadTwoStyle>
+            <div className='num1'>
+              <h1>Add accessible Vuetensils components</h1>
+              <p className='p'>
+                Quickly create accessible HTML elements by adding components
+                from the{' '}
+                <a href='https://vuetensils.com/Introduction.html'>
+                  Vuetensils component library
+                </a>
+                !
+              </p>
+              <br />
+              <p className='p'>
+                These naked components are designed with minimal bloat to let
+                you focus on development and accessible functionality.
+              </p>
+            </div>
+          </HeadTwoStyle>
+        </ReverseLayout>
       </SectionContainer>
 
-      <AdditionalFeature>
-        <BodyHeader className="additional-feature-header">Additional Features</BodyHeader>
-        <div className="feature-toggle">
+      {/* <AdditionalFeature>
+        <BodyHeader className='additional-feature-header'>
+          Additional Features
+        </BodyHeader>
+        <div className='feature-toggle'>
           <ImageContainer>
             <img
-                  alt="Gif of exporting the prototype's boilerplate"
-                  className="shadow"
-                  src={gifImage}
+              alt="Gif of exporting the prototype's boilerplate"
+              className='shadow'
+              src={gifImage}
             />
           </ImageContainer>
-          <ToggleButtonContainer className="toggle-button-container">
+          <ToggleButtonContainer className='toggle-button-container'>
             {toggleButtonArray}
           </ToggleButtonContainer>
         </div>
-      </AdditionalFeature>
+      </AdditionalFeature> */}
     </div>
   );
-}; 
+};
 
 const AdditionalFeature = styled.div`
   
@@ -175,15 +223,15 @@ const AdditionalFeature = styled.div`
     }
 
 
-`
+`;
 
 const BodyHeader = styled.h1`
   color: black;
   margin: 2em 0 1em 0;
-  color: #0F1730;
+  color: #0f1730;
   font-size: 3em;
   font-weight: 300;
-`
+`;
 const ImageContainer = styled.div`
   margin: 1em;
   color: #000000;
@@ -195,7 +243,7 @@ const ImageContainer = styled.div`
     max-width: 35em;
     border-radius: 0.25em;
   }
-`
+`;
 
 const ToggleButtonContainer = styled.div`
   justify-self: start;
@@ -207,8 +255,7 @@ const ToggleButtonContainer = styled.div`
   max-height: 40vh;
   width: 35em;
   whitespace: no-wrap;
-
-`
+`;
 
 const ToggleButton = styled.div`
   // height: 100%;
@@ -234,7 +281,7 @@ const ToggleButton = styled.div`
     font-size .75em;
     color: grey;
   }
-`
+`;
 
 const SectionContainer = styled.div`
   display: flex;
@@ -242,10 +289,10 @@ const SectionContainer = styled.div`
   align-items: center;
   width: 100%;
   padding: 60px 32px;
-  h1{
-    color:black;
+  h1 {
+    color: black;
   }
-`
+`;
 
 const Section = styled.div`
   display: flex;
@@ -255,12 +302,12 @@ const Section = styled.div`
   margin-bottom: 120px;
 
   div {
-    color: #000000
+    color: #000000;
   }
 
   h1 {
     margin-bottom: 1.5rem;
-    color: #0F1730
+    color: #0f1730;
   }
   p {
     color: #666666 !important;
@@ -269,11 +316,10 @@ const Section = styled.div`
   }
   h1::after {
     background: hsla(0, 0%, 56.5%, 0.5);
-    content: "";
+    content: '';
     display: block;
     height: 1.5px;
     margin: 20px 0px;
-    
   }
 
   img {
@@ -291,7 +337,7 @@ const Section = styled.div`
       margin-bottom: 32px;
     }
   }
-`
+`;
 
 const ReverseLayout = styled.div`
   display: flex;
@@ -352,4 +398,4 @@ const ReverseLayout = styled.div`
       margin-bottom: 32px;
     }
   }
-`
+`;

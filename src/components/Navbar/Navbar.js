@@ -57,7 +57,6 @@ export default function Navbar() {
         <a className="nav_blog" href="https://medium.com/@genesen.emma/prototyping-testing-and-vue-js-whats-new-in-overvue-8-0-e23dd084570">Blog</a>
         <a className="github_button" id="github-btn" href="https://github.com/open-source-labs/OverVue">
           <img className='github_logo' src='https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png' alt="black github logo"></img>
-          {starsCount}
         </a>
       </div>
       <IconButton className="ham-btn" onClick={()=>setShowNavLinks(!showNavLinks)}>

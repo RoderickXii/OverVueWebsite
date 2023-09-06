@@ -17,8 +17,8 @@ export const Footer = () => {
           <img alt="linkedIn logo" src={linkedInLogo}></img>
         </a>
       </Socials>
-      <h4>OverVue is licensed under the MIT License</h4>
-      <h4 className="OSLabs-line">Overvue is an open source project developed under tech accelerator<a href="https://opensourcelabs.io/">&nbsp;OSLabs</a></h4>
+      <h4>OverVue is licensed under the MIT License.</h4>
+      <h4 className="OSLabs-line">OverVue is an open-source project developed under tech accelerator<a href="https://opensourcelabs.io/">&nbsp;OS Labs</a>.</h4>
     </FooterEle>
   )
 }

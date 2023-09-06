@@ -1,36 +1,62 @@
-import React from "react";
-import { DocsLayout } from "../../layouts";
-import "../../styles/docs.css";
-import GridDensity from "../../assets/doc-data/GridDensity.jpg";
-import OptionsPullDown from "../../assets/doc-data/optionspulldown.jpg"
-import SlackOAuth from "../../assets/doc-data/SlackOAuth.jpg"
+import React from 'react';
+import { DocsLayout } from '../../layouts';
+import '../../styles/docs.css';
+import GridDensity from '../../assets/doc-data/GridDensity.jpg';
+import OptionsPullDown from '../../assets/doc-data/optionspulldown.jpg';
+import SlackOAuth from '../../assets/doc-data/SlackOAuth.jpg';
+import toggleMode from '../../assets/doc-data/toggleMode.jpeg';
+
 // import HeadTwoStyle from "../../styles/HeadTwoStyle.js";
 // import styled from "styled-components";
 export default function EnvironmentSetup() {
   return (
     <DocsLayout>
-      <div className="docs__content">
+      <div className='docs__content'>
         <h2>Setting Up Your OverVue Environment</h2>
-        <div className="desc">
+        <br />
+        <p>
+          OverVue 10.0 offers a versatile and powerful toolset designed to make
+          your tasks easier and more efficient.
+        </p>
+        <p>
+          One of the standout features of our application is its dual operating
+          mode, offering you two distinct ways to visualize and build your
+          component structure: <strong> Tree Mode</strong> and{' '}
+          <strong>Grid Mode.</strong>
+        </p>
+        <br />
+        <div>
           <div>
-            ​<h3>Setting Grid Density</h3>
-            <p>A key feature of OverVue is the ability to dynamically change the grid layout of the prototyping canvas before you start. Within the navigation bar on the top of the application, there are two buttons: Height and Width. Click either to have the a pulldown menu show what how many grid lines you want in each axis.</p>
+            <h3>Toggle between Tree Mode and Grid Mode</h3>
+            <br />
+            <p>
+              Switch between Tree Mode & Grid Mode by clicking on the gear icon
+              in the upper-right corner.
+            </p>
+            <img
+              src='https://live.staticflickr.com/65535/53167957178_c262e14f29.jpg'
+              width='500'
+              height='73'
+              alt='toggleMode'
+            />
+            <br />
+            <br />
+
+            <img
+              src='https://live.staticflickr.com/65535/53167471681_61021973f3_h.jpg'
+              width='650vh'
+              height='350vh'
+              alt='modes'
+            />
+            <br />
+            <p>
+              <em>
+                Please note that some functionality in Tree mode may be disabled
+                or broken, as this view is now considered deprecated.
+              </em>
+            </p>
+            <br />
           </div>
-          <img className="gif" alt="show grid density" src={GridDensity}></img>
-        </div>
-        <div className="desc">
-          <div>
-            ​<h3>Connect to Slack</h3>
-            <p>OverVue offers Slack within the application to link your OverVue instance into any slack channel. After logging in, you can send a message to your Slack channel after saving the project.</p>
-          </div>
-          <img className="gif" alt="show slack" src={SlackOAuth}></img>
-        </div>
-        <div className="desc">
-          <div>
-            ​<h3>Add Project TypeScript and OAuth </h3>
-            <p>OverVue includes the feature to implement TypeScript and Google/Github OAuth when exporting your project prototype. To turn TypeScript or Oauth modes on or off, click on the Settings gear icon in the right corner of the nav bar and click the toggle at the bottom of the menu of each respective setting.</p>
-          </div>
-          <img className="gif" alt="show options" src={OptionsPullDown}></img>
         </div>
       </div>
     </DocsLayout>
@@ -59,7 +85,7 @@ export default function EnvironmentSetup() {
 //     display: block;
 //     height: 1.5px;
 //     margin: 20px 0px;
-    
+
 //   }
 
 //   img {
