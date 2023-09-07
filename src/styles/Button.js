@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Button = styled.a`
   font-size: 1.1rem;
@@ -6,7 +6,8 @@ export const Button = styled.a`
   color: white;
   min-width: 220px;
 
-  background-color: #40b883;
+  // background-color: #40b883;
+  background: transparent;
   text-decoration: none;
   border-radius: 0.5rem;
   border: 1px solid white;

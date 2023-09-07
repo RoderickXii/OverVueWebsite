@@ -8,7 +8,7 @@ img {
   display: flex;
   flex-grow: 1;
   max-width: calc(100% - 200px);
-  color: #3f3f3f;
+  color: #ffffff;
   flex-direction: column;
   align-items: left;
   text-align: left;
@@ -20,7 +20,7 @@ h2 {
   font-size: 48px;
   width: 100%;
   margin-bottom: 12px;
-  color: #0f1730;
+  color: #63a283;
 }
 
 #team-h2-about {
@@ -31,7 +31,7 @@ h3 {
   font-size: 36px;
   width: 100%;
   margin-bottom: 12px;
-  color: #0f1730;
+  color: rgb(58, 115, 86);
 }
 #team-h3-line::after {
   background: hsla(0, 0%, 56.5%, 0.5);
@@ -50,7 +50,7 @@ p {
   font-size: 18px;
   /* margin-bottom: 18px; */
   line-height: 1.5rem;
-  color: rgb(80, 80, 80);
+  color: rgb(255, 255, 255);
   /* display: inline-block; */
 }
 p > a {

@@ -24,8 +24,7 @@ export default function CreateComponent() {
           </div>
           <img
             src='https://live.staticflickr.com/65535/53168259342_eb72295e98_b.jpg'
-            width='500'
-            height='550'
+            className='gif'
             alt='CreateComponent'
           />
         </div>

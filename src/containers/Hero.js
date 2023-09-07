@@ -5,6 +5,8 @@ import styled from 'styled-components';
 import { Button } from '../styles/Button';
 import { motion } from 'framer-motion';
 import main from '../assets/logo/overvue_trans.png';
+import { downloadLinks } from '../data/download-links';
+// import Button from '@mui/material/Button';
 
 const variants = {
   hidden: { opacity: 0 },
@@ -59,21 +61,25 @@ export const Hero = () => (
 
       <Button
         className={'button'}
-        href='https://github.com/open-source-labs/OverVue/releases/download/v9.0.0/OverVue-9.0.0-mac.zip'
+        href={downloadLinks.macOS}
       >
         <div id='download'>
-          <div>Download for </div> <i className='fab fa-apple' />
+          <div>Download for Mac</div>
+          <i className='fab fa-apple' />
         </div>
       </Button>
       <br />
+      <br />
       <Button
         className={'button'}
-        href='https://github.com/open-source-labs/OverVue/releases/download/v9.0.0/OverVue-9.0.0-linux.zip'
+        href={downloadLinks.linux}
       >
         <div id='download'>
-          <div>Download for Linux</div> <i className='fab fa-brands fa-linux' />
+          <div>Download for Linux</div>
+          <i className='fab fa-brands fa-linux' />
         </div>
       </Button>
+      <div className='aurora-1'></div>
     </motion.div>
   </HeaderStyles>
 );
@@ -81,20 +87,7 @@ export const Hero = () => (
 const HeaderStyles = styled.div`
   display: flex;
   flex-direction: column;
-  min-height: 75vh;
-  // background: rgb(37, 96, 159);
-  background: linear-gradient(
-    107deg,
-    rgb(52, 73, 94) 0%,
-    rgb(1, 4, 31) 70%
-  );
-  // background: linear-gradient(
-  //     // 107deg,
-  //     rgb(1, 4, 31) 0%,
-  //     // rgb(52, 73, 94) %,
-  //     rgb(255, 255, 255) 100%
-
-  //   );
+  min-height: 100vh;
   align-items: center;
   justify-content: center;
   img {

@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import githubLogo from "../assets/logo/GitHub-Mark-120px-plus.png";
 import linkedInLogo from "../assets/logo/linkedin.png";
 // import { Button } from "../styles/Button";
 // import { motion } from "framer-motion";
@@ -11,7 +10,7 @@ export const Footer = () => {
     <FooterEle>
       <Socials>
         <a className="social-link" href="https://github.com/open-source-labs/OverVue">
-          <img alt="github logo" src={githubLogo}></img>
+          <img className='github_logo' src='https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png' alt="black github logo"></img>
         </a>
         <a className="social-link" href="https://www.linkedin.com/company/overvue-7-0/">
           <img alt="linkedIn logo" src={linkedInLogo}></img>

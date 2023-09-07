@@ -88,13 +88,15 @@ export const Body = () => {
 
   return (
     <div>
+      {' '}
+      <Divider className='divider'></Divider>
       <BodyHeader className='new-header'>
         What's new in OverVue 10.0?
       </BodyHeader>
       <SectionContainer>
         <Section>
           <HeadTwoStyle>
-            <h1>Edit in new and improved "Tree Mode"</h1>
+            <h1>New and Improved "Tree Mode"</h1>
             <p className='p'>
               Drag and drop tree nodes to dynamically change your app's
               component structure!
@@ -121,7 +123,7 @@ export const Body = () => {
           />
           <HeadTwoStyle>
             <div className='num1'>
-              <h1>Nest HTML elements</h1>
+              <h1>Nest HTML Elements</h1>
               <p className='p'>
                 In the HTML Elements section, reposition and nest HTML elements
                 within your components by dragging and dropping.
@@ -132,7 +134,7 @@ export const Body = () => {
 
         <Section>
           <HeadTwoStyle>
-            <h1>Focus on a specific component</h1>
+            <h1>Focus on a Specific Component</h1>
             <p className='p'>
               Double-click on a component within your tree to open up the
               "component focus" modal.
@@ -144,7 +146,6 @@ export const Body = () => {
             src='https://media.giphy.com/media/7ACv2wDz7wscaTtXuk/giphy.gif'
           />
         </Section>
-
         <ReverseLayout>
           <img
             alt='Add html element Gif'
@@ -153,7 +154,7 @@ export const Body = () => {
           />
           <HeadTwoStyle>
             <div className='num1'>
-              <h1>Add accessible Vuetensils components</h1>
+              <h1>Accessible Vuetensils Components</h1>
               <p className='p'>
                 Quickly create accessible HTML elements by adding components
                 from the{' '}
@@ -162,6 +163,8 @@ export const Body = () => {
                 </a>
                 !
               </p>
+              <div className='aurora-2'></div>
+              <div className='aurora-3'></div>
               <br />
               <p className='p'>
                 These naked components are designed with minimal bloat to let
@@ -171,7 +174,6 @@ export const Body = () => {
           </HeadTwoStyle>
         </ReverseLayout>
       </SectionContainer>
-
       {/* <AdditionalFeature>
         <BodyHeader className='additional-feature-header'>
           Additional Features
@@ -210,7 +212,6 @@ const AdditionalFeature = styled.div`
   .additional-feature-header {
     color: white;
   }
-
   .toggle-button-container::-webkit-scrollbar {
     display: none;
   }
@@ -225,13 +226,23 @@ const AdditionalFeature = styled.div`
 
 `;
 
+const Divider = styled.div`
+  // border-bottom: solid gray 0.05em;
+  padding: 0.5em;
+  margin-bottom: 5em;
+`;
+
 const BodyHeader = styled.h1`
   color: black;
-  margin: 2em 0 1em 0;
-  color: #0f1730;
+  // border-top: solid rgba(51, 129, 86, 0.48) 0.05em;
+  margin: 1em 0 1em 0;
+  padding-top: 0.5em;
+  color: #e3e3e3;
+  text-shadow: #dbdbdb 1px 0 5px;
   font-size: 3em;
   font-weight: 300;
 `;
+
 const ImageContainer = styled.div`
   margin: 1em;
   color: #000000;
@@ -307,10 +318,11 @@ const Section = styled.div`
 
   h1 {
     margin-bottom: 1.5rem;
-    color: #0f1730;
+    color: #e3e3e3;
+    font-weight: 300;
   }
   p {
-    color: #666666 !important;
+    color: #919191 !important;
     font-size: 1.5rem;
     font-weight: 300;
   }
@@ -352,10 +364,11 @@ const ReverseLayout = styled.div`
 
   h1 {
     margin-bottom: 1.5rem;
-    color: #0F1730 !important;
+    color: #e3e3e3 !important;
+    font-weight: 300;
   }
   p {
-    color: #666666 !important;
+    color: #919191 !important;
     font-size: 1.5rem;
     font-weight: 300;
   }

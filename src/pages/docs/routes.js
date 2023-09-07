@@ -58,6 +58,7 @@ export default function Routes() {
             src='https://media.giphy.com/media/ZulevY0tBZnUOCDpY7/giphy.gif'
           />
           <br />
+          <br />
           <h3>Editing in Grid Mode</h3>
           <p>
             OverVue version 10 enhances the developer experience by setting Tree
@@ -71,11 +72,13 @@ export default function Routes() {
             modes.
           </p>
           <img
-            src='https://live.staticflickr.com/65535/53169206709_6b8d0b0945_c.jpg'
+            src='https://live.staticflickr.com/65535/53169233931_140e2e64f3_c.jpg'
             className='gif'
-            alt='Gridmode'
+            alt='grid features'
           />
+          <br />
         </div>
+        <p></p>
       </div>
     </DocsLayout>
   );

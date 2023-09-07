@@ -27,7 +27,7 @@ export const links = {
       link: '/docs/create-component',
     },
     {
-      label: 'Creating Routes',
+      label: 'Component Relationships',
       link: '/docs/routes',
     },
     // {

@@ -33,12 +33,10 @@ export default function OurTeam() {
             OverVue is an Open Source prototyping tool that enables developers
             to seamlessly build & visualize Vue applications.
           </h3>
-          <br />
           <h2 className='team-h2'>Our Team</h2>
           <h3 className='team-h3' id='team-h3-line'>
             Our product is built by a diverse community of developers who are
             passionate about improving prototype driven development.
-            <br />
             <br />
           </h3>
         </div>

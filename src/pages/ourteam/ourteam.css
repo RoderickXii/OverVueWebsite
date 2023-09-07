@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
 
 .team-h2 {
-  font-family: 'Inter', sans-serif;;
-  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+  font-size: 36px;
+  /* font-weight: 700; */
   padding-top: 48px;
-  font-size: 48px;
   max-width: 80%;
-  color: white;
+  color: rgb(58, 115, 86);
   /* align-items:flex-start; */
 }
 
@@ -17,7 +17,6 @@
   margin-bottom: 12px;
   color: white;
   font-weight: 300;
-  
 }
 
 .team-h4 {
@@ -52,5 +51,5 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  max-width:90%;
+  max-width: 90%;
 }
