@@ -1,10 +1,10 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 // styling and functionality of writing, OverVue link below the developer card
 const BottomDiv = styled.div`
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+
   @media only screen and (max-width: 800px) {
-    h2 {
-    }
     h2::after {
       display: none;
     }
@@ -17,11 +17,13 @@ const BottomDiv = styled.div`
   margin: 2rem;
   margin-top: 6rem;
   h2 {
-    font-weight: 100;
+    font-weight: 600;
+    color: #63a283;
+    font-family: 'Inter', sans-serif;
   }
   h2::after {
     background: hsla(0, 0%, 56.5%, 0.5);
-    content: "";
+    content: '';
     display: block;
     height: 1px;
     margin: 1em auto;
@@ -33,7 +35,7 @@ const BottomDiv = styled.div`
     margin-left: 0.5em;
   }
   .contribute {
-    width: 6.4rem;
+    width: 200px;
     display: flex;
     margin: 2em auto;
     font-size: 1.1rem;
@@ -42,24 +44,42 @@ const BottomDiv = styled.div`
     background-color: none;
     text-decoration: none;
     border-radius: 0.5rem;
-    border: 1px solid white;
-    background: none;
-    font-family: sans-serif;
+    // border: 1px solid white;
+    background: #7ad8ae;
+    font-family: 'Inter', sans-serif;
     transition: 200ms ease-in;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     &:hover {
       background-color: rgb(255, 255, 255, 0.2);
     }
   }
+  div {
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+  }
+  div > a {
+    display: inline;
+    color: inherit;
+    text-decoration: underline;
+  }
 `;
 
-export const Contribute = () => {
+const Contribute = () => {
   return (
     <BottomDiv>
-      <h2>Want to Contribute?</h2>
-      <div>OverVue is open source. Help make Vue prototyping better!</div>
-      <a className="contribute" href="https://github.com/open-source-labs/OverVue">
+      <h2>Want to contribute?</h2>
+      <div>
+        Visit our{' '}
+        <a href='https://github.com/open-source-labs/OverVue'>GitHub</a>{' '}
+        repository and help make Vue prototyping better!
+      </div>
+      {/* <a className="contribute" href="https://github.com/open-source-labs/OverVue">
         <p>Github </p> <i className="fab fa-github" />
-      </a>
+      </a> */}
     </BottomDiv>
   );
 };
+
+export default Contribute;

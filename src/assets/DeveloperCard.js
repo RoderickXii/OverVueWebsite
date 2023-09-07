@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 // styling for the developer card in footer
 const DeveloperCard = styled.div`
   display: flex;
@@ -6,7 +6,7 @@ const DeveloperCard = styled.div`
   justify-content: space-around;
   align-items: center;
   width: 8em;
-  height: 8e,;
+  height: 8e;
   margin: 2.25em;
 
   .dev-pic {
@@ -23,12 +23,12 @@ const DeveloperCard = styled.div`
   a {
     color: #dde;
     text-decoration: none;
-    font-size: .9em;
+    font-size: 0.9em;
     font-weight: 500;
     margin-bottom: -2.25em;
   }
   a:hover {
-    color: #eef;
+    color: rgb(38, 131, 100);
     transition: 0.3s;
   }
 `;

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* background: hsla(165, 78%, 35%, 0.3); */
+  padding: 16px;
+  min-height: 100%;
+  height: 100vh;
+  width: 300px;
+  position: sticky;
+  font-family: 'Inter', sans-serif;
+  margin-top: 1em;
+}
+
+.sidebar__inner {
+  position: fixed;
+}
+
+.sidebar__link {
+  text-decoration: none;
+  color: white;
+  text-align: left;
+  margin-bottom: 8px;
+  display: block;
+  font-size: 12pt;
+  margin-left: 28px;
+}
+
+.sidebar__link:hover {
+  color: rgb(38, 131, 100);
+}
+
+.sidebar h3 {
+  color: rgb(57, 124, 79);
+  text-align: left;
+  margin-bottom: 12px;
+  margin-top: 20px;
+  margin-left: 15px;
+  font-weight: 300px;
+  font-size: 20px;
+}
