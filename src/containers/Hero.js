@@ -4,7 +4,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { Button } from '../styles/Button';
 import { motion } from 'framer-motion';
-import main from '../assets/logo/overvue_trans.png';
+import main from '../assets/logo/v11White.png';
 import { downloadLinks } from '../data/download-links';
 // import Button from '@mui/material/Button';
 
@@ -77,6 +77,17 @@ export const Hero = () => (
         <div id='download'>
           <div>Download for Linux</div>
           <i className='fab fa-brands fa-linux' />
+        </div>
+      </Button>
+      <br />
+      <br />
+      <Button
+        className={'button'}
+        href={downloadLinks.windows}
+      >
+        <div id='download'>
+          <div>Download for Windows</div>
+          <i className='fab fa-brands fa-windows' />
         </div>
       </Button>
       <div className='aurora-1'></div>
