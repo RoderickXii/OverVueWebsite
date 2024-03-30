@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'gatsby';
-import logo from '../../assets/logo/overvue-nav.png';
+import logo from '../../assets/logo/logoIcon.svg';
 import './navbar.css';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 // OG Nav Bar
 export default function Navbar() {
@@ -49,7 +50,7 @@ export default function Navbar() {
         <img class='overVue_logo' src={logo} alt={'logo'} />
       </Link>
       <div className='nav_actions' id={showNavLinks ? 'hidden' : ''}>
-        <Link className='nav_docs' to={'/docs/installation'}>
+        <Link className='nav_docs' to={'/docs/introduction'}>
           Docs
         </Link>
         <Link className='nav_ourTeam' to={'/ourteam'}>
@@ -57,26 +58,19 @@ export default function Navbar() {
         </Link>
         <a
           className='nav_blog'
-          href='https://medium.com/@abagat07/elevate-your-prototyping-experience-overvue-10-0-8035400abd05'
-        >
+          href='https://medium.com/@robsinzieri_64078/boost-your-productivity-and-efficiency-in-vue-js-3cea76cd97c3'>
           Blog
         </a>
         <a
           className='github_button'
           id='github-btn'
-          href='https://github.com/open-source-labs/OverVue'
-        >
-          <img
-            className='github_logo'
-            src='https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png'
-            alt='black github logo'
-          ></img>
+          href='https://github.com/open-source-labs/OverVue'>
+          <GitHubIcon fontSize='large' />
         </a>
       </div>
       <IconButton
         className='ham-btn'
-        onClick={() => setShowNavLinks(!showNavLinks)}
-      >
+        onClick={() => setShowNavLinks(!showNavLinks)}>
         <MenuIcon />
       </IconButton>
     </nav>
