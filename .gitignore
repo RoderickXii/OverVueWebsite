@@ -1,3 +1,7 @@
+#remove for production build in order for cleaner merges
+public/
+
+#General
 node_modules
 .cache
 /.cache
