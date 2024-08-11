@@ -1,4 +1,2 @@
-export { Body } from './Body';
-export { Hero } from './Hero';
-export { Footer } from './Footer';
-
+export { WhatsNew } from "./WhatsNew";
+export { Hero } from "./Hero";

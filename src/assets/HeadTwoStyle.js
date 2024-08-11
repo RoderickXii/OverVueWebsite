@@ -6,7 +6,7 @@ const HeadTwoStyles = styled.div`
   margin: 1em;
 
   div {
-    margin-top: -.35em;
+    margin-top: -0.35em;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

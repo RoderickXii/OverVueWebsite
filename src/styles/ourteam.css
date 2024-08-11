@@ -1,0 +1,74 @@
+.ourteam__container {
+  display: grid;
+  margin: 4rem 0;
+  padding: 0;
+}
+
+.devCards{
+  margin: 2rem 0;
+}
+.dev__contributor__title {
+  margin: 0;
+  padding: 0;
+  color: var(--primary);
+  font-size: 1.5rem;
+}
+
+.dev__container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 2rem;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.dev__card {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 0.5fr auto;
+  gap: 1rem;
+  justify-content: space-around;
+  width: 8rem;
+  max-height: 16rem;
+  margin: 2rem 0;
+}
+
+.dev__pic {
+  grid-row: 1/2;
+  border-radius: 100%;
+  width: 8rem;
+  height: 8rem;
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.dev__name {
+  grid-row: 2/3;
+  color: #dde;
+  line-height: 1.7em;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.dev__link {
+  grid-row: 3/4;
+  color: #dde;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.dev__link:hover,
+.dev__link:focus {
+    color: var(--primary);
+    transition: 0.3s;
+  }

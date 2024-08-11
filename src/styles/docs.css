@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap");
 
 img {
   margin: 0 auto;
@@ -35,7 +35,7 @@ h3 {
 }
 #team-h3-line::after {
   background: hsla(0, 0%, 56.5%, 0.5);
-  content: '';
+  content: "";
   display: block;
   height: 1.5px;
   margin: 20px 20px 20px 0px;
@@ -72,7 +72,7 @@ p > a {
 }
 .horiz {
   color: hsla(0, 0%, 56.5%, 0.5);
-  content: '';
+  content: "";
   display: block;
   height: 1.5px;
   margin: 20px 0px;

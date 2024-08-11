@@ -1,0 +1,145 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  margin-top: 2em;
+}
+
+.Button {
+  border: 1px solid white;
+  border-radius: 4px;
+  width: 12rem;
+  text-align: center;
+  padding: 0.75rem 1.5rem;
+}
+
+img {
+  height: 8rem;
+  margin-right: 1.5rem;
+}
+
+.subtitle {
+  font-size: 1.3rem;
+  margin: 2rem;
+  font-weight: 100;
+}
+
+.whatsNew {
+  margin: 0;
+  margin-bottom: 4rem;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* gap: 2rem; */
+  /* border: 1px solid #c62; */
+}
+
+.whatsNew__header {
+  margin: 0;
+  margin-bottom: 2rem;
+  padding: 0;
+  color: var(--text-color);
+  font-size: 3em;
+  font-weight: 300;
+}
+
+.feature__container {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  margin: 4rem 0;
+  /* max-width: ; */
+}
+
+.feature__card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto 0.5fr 1fr;
+  width: 300px;
+  gap: 1em;
+  padding: 1rem 2rem;
+  /* border: 1px solid #e3e3e3; */
+}
+
+.feature__icon {
+  background-color: var(--primary);
+  grid-column: 2/3;
+  grid-row: 1/2;
+  width: 50px;
+  height: 50px;
+  border-radius: 32px;
+  justify-self: center;
+  align-self: center;
+}
+
+.feature__title {
+  margin: 0;
+  padding: 0;
+  grid-column: 1/4;
+  grid-row: 2/3;
+  justify-self: center;
+  align-self: flex-start;
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+.feature__info {
+  /* border: 1px solid #e3e; */
+  grid-column: 1/4;
+  grid-row: 3/4;
+  height: 100px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+
+}
+
+.feature__image {
+  width: auto;
+  height: auto;
+}
+
+/* @media only screen and (maxWidth: 830px) {
+  .title {
+    margin:  0px;
+  }
+  #name {
+    font-size: 2.6rem;
+  }
+}
+@media only screen and (maxWidth: 700px){
+  .subtitle {
+    margin: .5em;
+  }
+  img {
+    max-height: 100px;
+  }
+} */
+/* @media only screen and (maxWidth: 400px) {
+  #name {
+    font-size: 3rem;
+    margin: 0px;
+  }
+  .title {
+    flex-direction: column;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+  }
+  p {
+    margin-bottom: 1em;
+  }
+  img {
+    margin: 0px;
+  }
+} */

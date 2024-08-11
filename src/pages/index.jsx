@@ -1,21 +1,13 @@
 import React from "react";
-import { Hero, Body, Footer } from "../containers";
-import { Navbar } from "../components";
-import styled from "styled-components";
-import "../styles/styles.css";
+import { Hero, WhatsNew } from "../containers";
+import { MainLayout } from "../layouts";
+// import "../styles/base.css";
 
 export default function Homepage() {
   return (
-    <App id="App">
-      <Navbar />
+    <MainLayout title="OverVue">
       <Hero />
-      <Body />
-      <Footer />
-    </App>
+      <WhatsNew />
+    </MainLayout>
   );
 }
-
-const App = styled.div`
-  display: flex;
-  flex-direction: column;
-`

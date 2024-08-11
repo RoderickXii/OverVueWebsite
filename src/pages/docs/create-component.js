@@ -1,18 +1,18 @@
-import React from 'react';
-import { DocsLayout } from '../../layouts';
-import '../../styles/docs.css';
-import Codesnippet from '../../assets/doc-data/Codesnippet.jpg';
-import CreateComponentPic from '../../assets/doc-data/createcomponent.jpg';
-import CreateElementPlus from '../../assets/doc-data/createlementplus.jpg';
-import AddingProps from '../../assets/doc-data/addingprops.jpg';
-import Vuetensils from '../../assets/doc-data/Vuetensils.png';
+import React from "react";
+import { DocsLayout } from "../../layouts";
+import "../../styles/docs.css";
+import Codesnippet from "../../assets/doc-data/Codesnippet.jpg";
+import CreateComponentPic from "../../assets/doc-data/createcomponent.jpg";
+import CreateElementPlus from "../../assets/doc-data/createlementplus.jpg";
+import AddingProps from "../../assets/doc-data/addingprops.jpg";
+import Vuetensils from "../../assets/doc-data/Vuetensils.png";
 
 export default function CreateComponent() {
   return (
     <DocsLayout>
-      <div className='docs__content'>
+      <div className="docs__content">
         <h2>Creating New Components</h2>​
-        <div className='desc'>
+        <div className="desc">
           <div>
             <h3>Create a new component</h3>
             <p>
@@ -20,15 +20,19 @@ export default function CreateComponent() {
               component name (required) and optionally select a parent
               component.
             </p>
-            <p> Then, click "Create Component" at the bottom of the menu.</p>
+            <p>
+              {" "}
+              Then, click &quot;Create Component&quot; at the bottom of the
+              menu.
+            </p>
           </div>
           <img
-            src='https://live.staticflickr.com/65535/53168259342_eb72295e98_b.jpg'
-            className='gif'
-            alt='CreateComponent'
+            src="https://live.staticflickr.com/65535/53168259342_eb72295e98_b.jpg"
+            className="gif"
+            alt="CreateComponent"
           />
         </div>
-        <div className='desc'>
+        <div className="desc">
           <div>
             <h3>Add HTML elements</h3>
             <p>
@@ -36,9 +40,9 @@ export default function CreateComponent() {
               tab on the right sidebar.
             </p>
             <img
-              src='https://live.staticflickr.com/65535/53169043389_d2f9b551cb_b.jpg'
-              className='gif'
-              alt='AddHtmlElements'
+              src="https://live.staticflickr.com/65535/53169043389_d2f9b551cb_b.jpg"
+              className="gif"
+              alt="AddHtmlElements"
             />
             <br />
             <br />
@@ -46,41 +50,41 @@ export default function CreateComponent() {
               Nest your HTML elements using our component focus modal or use the
               HTML Tab in the right sidebar.
             </p>
-            <div style={{ display: 'flex' }}>
+            <div style={{ display: "flex" }}>
               <img
-                alt='Add html element Gif'
-                className='shadow'
-                src='https://media.giphy.com/media/7ACv2wDz7wscaTtXuk/giphy.gif'
-                style={{ 'max-width': '500px' }}
+                alt="Add html element Gif"
+                className="shadow"
+                src="https://media.giphy.com/media/7ACv2wDz7wscaTtXuk/giphy.gif"
+                style={{ maxWidth: "500px" }}
               />
               <img
-                alt='HTML Element List Gif'
-                className='shadow num2'
-                src='https://media.giphy.com/media/ZxQLQ23f2vaJq4F380/giphy.gif'
+                alt="HTML Element List Gif"
+                className="shadow num2"
+                src="https://media.giphy.com/media/ZxQLQ23f2vaJq4F380/giphy.gif"
                 style={{
-                  'max-width': '150px',
+                  maxWidth: "150px",
                 }}
               />
             </div>
             <br />
             <h4>Vuetensils component library</h4>
             <p>
-              OverVue now has a new feature to add accessible{' '}
-              <a href='https://vuetensils.com/Introduction.html'>Vuetensils</a>{' '}
-              components to quickly style your project prototype components.{' '}
+              OverVue now has a new feature to add accessible{" "}
+              <a href="https://vuetensils.com/Introduction.html">Vuetensils</a>{" "}
+              components to quickly style your project prototype components.{" "}
             </p>
             <p>
               To add a Vuetensils component, click the Vuetensils tab and select
-              the component you'd like to add.
+              the component you&apos;d like to add.
             </p>
             <img
-              src='https://live.staticflickr.com/65535/53169314443_546cc69a55_b.jpg'
-              className='gif'
-              alt='Screenshot 2023-09-06 at 10.54.12 AM'
+              src="https://live.staticflickr.com/65535/53169314443_546cc69a55_b.jpg"
+              className="gif"
+              alt="Screenshot 2023-09-06 at 10.54.12 AM"
             />
           </div>
         </div>
-        <div className='desc'>
+        <div className="desc">
           <div>
             <h3>Customize your components</h3>
             <p>To set component styling, add a class attribute.</p>
@@ -88,7 +92,7 @@ export default function CreateComponent() {
               You can further customize your components in the sidebar by adding
               an ID, parents, children, props, state, or actions - all of which
               will be dynamically updated in the Code Preview and included in
-              your exported files.{' '}
+              your exported files.{" "}
             </p>
             <p>
               To update a component after its creation, select the component on
@@ -97,9 +101,9 @@ export default function CreateComponent() {
             </p>
           </div>
           <img
-            src='https://live.staticflickr.com/65535/53169093959_cd26285063_b.jpg'
-            className='gif'
-            alt='CustomizeComponents'
+            src="https://live.staticflickr.com/65535/53169093959_cd26285063_b.jpg"
+            className="gif"
+            alt="CustomizeComponents"
           />
         </div>
       </div>
