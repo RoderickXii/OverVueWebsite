@@ -1,5 +1,5 @@
 import React from "react";
-import { MainLayout } from "../layouts";
+import { MainLayout } from "../components/layouts";
 import { Link } from "gatsby";
 
 export default function NotFound() {

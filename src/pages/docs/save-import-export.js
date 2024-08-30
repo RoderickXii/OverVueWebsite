@@ -1,12 +1,12 @@
 import React from "react";
-import { DocsLayout } from "../../layouts";
-import "../../styles/docs.css";
+import { LayoutWithSidebar } from "../../components/layouts";
+// import "../../styles/docs.css";
 import save from "../../assets/doc-data/save.gif";
 import exp from "../../assets/doc-data/export.gif";
 
 export default function SaveAndExport() {
   return (
-    <DocsLayout>
+    <LayoutWithSidebar>
       <div className="docs__content">
         <h2>Save, import, and export projects</h2>
         <div className="desc">
@@ -54,6 +54,6 @@ export default function SaveAndExport() {
           ></img>
         </div>
       </div>
-    </DocsLayout>
+    </LayoutWithSidebar>
   );
 }

@@ -1,11 +1,11 @@
 import React from "react";
-import { DocsLayout } from "../../layouts";
-import "../../styles/docs.css";
+import { LayoutWithSidebar } from "../../components/layouts";
+// import "../../styles/docs.css";
 import { downloadLinks } from "../../data/download-links";
 
 export default function Installation() {
   return (
-    <DocsLayout>
+    <LayoutWithSidebar>
       <div className="docs__content">
         <h3>Installation</h3>
         <p>OverVue is compatible with MacOS, Linux, and now Windows.</p>
@@ -60,6 +60,6 @@ export default function Installation() {
         </p>
         <p>3. Run OverVue 11.0.</p>​
       </div>
-    </DocsLayout>
+    </LayoutWithSidebar>
   );
 }

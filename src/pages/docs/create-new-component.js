@@ -1,6 +1,6 @@
 import React from "react";
-import { DocsLayout } from "../../layouts";
-import "../../styles/docs.css";
+import { LayoutWithSidebar } from "../../components/layouts";
+// import "../../styles/docs.css";
 import Codesnippet from "../../assets/doc-data/Codesnippet.jpg";
 import CreateComponentPic from "../../assets/doc-data/createcomponent.jpg";
 import CreateElementPlus from "../../assets/doc-data/createlementplus.jpg";
@@ -9,7 +9,7 @@ import Vuetensils from "../../assets/doc-data/Vuetensils.png";
 
 export default function CreateComponent() {
   return (
-    <DocsLayout>
+    <LayoutWithSidebar>
       <div className="docs__content">
         <h2>Creating New Components</h2>​
         <div className="desc">
@@ -107,6 +107,6 @@ export default function CreateComponent() {
           />
         </div>
       </div>
-    </DocsLayout>
+    </LayoutWithSidebar>
   );
 }

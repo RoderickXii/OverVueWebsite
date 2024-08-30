@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap");
 
 :root {
-  --background-color: #05100B;
+  --background-color: #05100b;
   --text-color: white;
   --primary: #7bd8ae;
   --navbar-gap: 3.5em;
@@ -39,6 +39,17 @@ Link:focus,
     "navBar"
     "mainContainer"
     "footer";
+  margin: 0 2rem;
+  padding: 0 4rem;
+  min-height: 100vh;
+}
+
+#layout__withSidebar {
+  display: grid;
+  grid-template-areas:
+    "navBar navBar"
+    "sidebar mainContainer"
+    "footer footer";
   margin: 0 2rem;
   padding: 0 4rem;
   min-height: 100vh;
@@ -156,4 +167,3 @@ Link:focus,
   text-decoration: underline;
   text-underline-offset: 0.2em;
 }
-

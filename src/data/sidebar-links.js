@@ -11,41 +11,24 @@ export const links = {
       label: "Installation",
       link: "/docs/installation",
     },
-    // {
-    //   label: "New User Tutorial",
-    //   link: "/docs/new-user-tutorial",
-    // },
   ],
   //section heading and nested links
   guides: [
     {
-      label: "Setup",
+      label: "Environment Setup",
       link: "/docs/environment-setup",
     },
     {
       label: "Creating New Components",
-      link: "/docs/create-component",
+      link: "/docs/create-new-component",
     },
     {
       label: "Component Relationships",
-      link: "/docs/routes",
+      link: "/docs/component-relationships",
     },
-    // {
-    //   label: "Adding Styling",
-    //   link: "/docs/component-styling",
-    // },
-    // {
-    //   label: "OAuth Configuration",
-    //   link: "/docs/oauthConfig",
-    // },
-
-    // {
-    //   label: "Hierarchy Visualization",
-    //   link: "/docs/hierarchy-visualization",
-    // },
     {
       label: "Saving, Importing, & Exporting",
-      link: "/docs/save-and-export",
+      link: "/docs/save-import-export",
     },
   ],
 };

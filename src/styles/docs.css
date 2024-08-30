@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap");
 
 img {
   margin: 0 auto;
@@ -44,14 +44,11 @@ h3 {
 hr {
   height: 1.5px;
   width: 100%;
-}
-p {
-  /* display: inline; */
+} */
+/* p {
   font-size: 18px;
-  /* margin-bottom: 18px; */
   line-height: 1.5rem;
   color: rgb(255, 255, 255);
-  /* display: inline-block; */
 }
 p > a {
   display: inline;
@@ -63,7 +60,6 @@ p > a {
   width: 100%;
   height: auto;
   border-radius: 2px;
-  /* box-shadow: 2px 4px 5px rgba(52, 73, 94, 0.4); */
   object-fit: contain;
 }
 
@@ -76,9 +72,9 @@ p > a {
   display: block;
   height: 1.5px;
   margin: 20px 0px;
-}
+} */
 
-@media screen and (min-width: 1500px) {
+/* @media screen and (min-width: 1500px) {
   .desc {
     display: flex;
     flex-direction: row;
@@ -91,4 +87,4 @@ p > a {
 
 .minusMargin {
   margin-top: -20px;
-}
+} */

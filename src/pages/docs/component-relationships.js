@@ -1,11 +1,11 @@
 import React from "react";
-import { DocsLayout } from "../../layouts";
-import "../../styles/docs.css";
+import { LayoutWithSidebar } from "../../components/layouts";
+// import "../../styles/docs.css";
 import ComponentHierarchy from "../../assets/doc-data/componentHierarchy.jpg";
 
 export default function Routes() {
   return (
-    <DocsLayout>
+    <LayoutWithSidebar>
       <div className="docs__content">
         <h2>Component Relationships</h2>
         <div className="desc">
@@ -80,6 +80,6 @@ export default function Routes() {
         </div>
         <p></p>
       </div>
-    </DocsLayout>
+    </LayoutWithSidebar>
   );
 }

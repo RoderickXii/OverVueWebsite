@@ -2,7 +2,7 @@ import React from "react";
 import DeveloperCard from "../components/DeveloperCard";
 // import Contribute from "../components/Contribute";
 import devData from "../assets/devData";
-import { MainLayout } from "../layouts";
+import { MainLayout } from "../components/layouts";
 
 import "../styles/ourteam.css";
 import InfoSection from "../components/InfoSection";

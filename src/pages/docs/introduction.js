@@ -1,10 +1,10 @@
 import React from "react";
-import { DocsLayout } from "../../layouts";
-import "../../styles/docs.css";
+import { LayoutWithSidebar } from "../../components/layouts";
+// import "../../styles/docs.css";
 
 export default function Introduction() {
   return (
-    <DocsLayout>
+    <LayoutWithSidebar title="Introduction">
       <div className="docs__content">
         <h3>Introduction</h3>
         <p>
@@ -34,6 +34,6 @@ export default function Introduction() {
           <li>Save, import, and export project functionality</li>
         </ul>
       </div>
-    </DocsLayout>
+    </LayoutWithSidebar>
   );
 }
